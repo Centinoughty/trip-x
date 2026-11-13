@@ -1,0 +1,17 @@
+# Dev environment
+.vscode/
+
+# Environment Vvriables
+.env*
+!.env.example
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
