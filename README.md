@@ -6,6 +6,13 @@ The project is built with extensibility in mind, allowing new tools to be added 
 
 ## Table of Contents
 
+- [Introduction](#-introduction)
+- [Architecture](#-architecture)
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation)
+- [Extensibility](#-extensibility)
+- [Future Enhancements](#-future-enhancements)
+
 ## Introduction
 
 Planning a trip often involves researching destinations, checking weather conditions, comparing travel costs, and organizing itineraries. This project aims to bring these activities together through an AI-powered multi-agent system. The agent coordinates different responsibilities to create travel plans based on user preferences, requirements, and constraints.
@@ -23,7 +30,7 @@ The system follows a multi-agent architecture, where each agent is responsible f
 
 - **Language**: Python
 - **Package Manager**: uv
-- **AI/LLM**: Configurable
+- **AI/LLM**: Gemini
 - **Architecture**: Multi-Agent System
 
 ## Installation
@@ -31,6 +38,7 @@ The system follows a multi-agent architecture, where each agent is responsible f
 ### Prerequisites
 - [Python](https://www.python.org/downloads/)
 - [uv](https://docs.astral.sh/uv/getting-started/installation/)
+- [Google Gemini API](https://aistudio.google.com/api-keys)
 
 ### Installation Steps
 
@@ -58,6 +66,12 @@ copy .env.example .env      ## Windows CMD
 ```
 
 Configure the required environment variables for your chosen LLM provider before running the application.
+
+#### 4. Run the application
+
+```bash
+uv run python -m trip_x.main
+```
 
 ## Extensibility
 
