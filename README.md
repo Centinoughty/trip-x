@@ -6,12 +6,12 @@ The project is built with extensibility in mind, allowing new tools to be added 
 
 ## Table of Contents
 
-- [Introduction](#-introduction)
-- [Architecture](#-architecture)
-- [Tech Stack](#-tech-stack)
-- [Installation](#-installation)
-- [Extensibility](#-extensibility)
-- [Future Enhancements](#-future-enhancements)
+- [Introduction](#introduction)
+- [Architecture](#architecture)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Extensibility](#extensibility)
+- [Future Enhancements](#future-enhancements)
 
 ## Introduction
 
