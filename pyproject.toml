@@ -8,13 +8,14 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "langchain-google-genai>=4.5.0",
     "pydantic>=2.14.3",
     "pydantic-settings>=2.16.2",
     "pytest>=9.2.0",
 ]
 
 [project.scripts]
-trip-x = "trip_x:main"
+trip-x = "trip_x.main:main"
 
 [build-system]
 requires = ["uv_build>=0.13.8,<0.14.0"]

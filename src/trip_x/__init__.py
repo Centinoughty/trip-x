@@ -1,2 +1,1 @@
-def main() -> None:
-    print("Hello from trip-x!")
+__all__ = ["main"]

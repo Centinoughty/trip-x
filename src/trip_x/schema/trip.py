@@ -18,7 +18,7 @@ class TripRequest(BaseModel):
     interests: list[str] = Field(default_factory=list, description="Travel interests such as food, adventure, culture")
 
     travel_style: Literal["budget", "moderate", "luxury"] = "moderate"
-    accomodation_type: Literal["hostel", "budget_hotel", "mid_range", "luxury"] = "mid_range"
+    accommodation_type: Literal["hostel", "budget_hotel", "mid_range", "luxury"] = "mid_range"
 
     additional_req: list[str] = Field(default_factory=list)
 
